@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #f6f3eb;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+h1{
+    color:#CBAE7A;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    text-indent: -9999px;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header a{
+    color: #CBAE7A;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+
+.光影手作糖工坊{
+    display: flex;
+}
+.光影手作糖工坊 img{
+    width: 50%;
+}
+.文1{
+    width: 50%;
+    background-color:#e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.文1 h2{
+ font-size: 40px;
+    margin-bottom: 30px;   
+}
+.文1 p{
+    text-align: center;
+    line-height: 2em;
+}
+
+
+.果香口味診斷室{
+  display: flex;  
+}
+.果香口味診斷室 img{
+    width: 50%;
+}
+
+.文2{
+    width: 50%;
+    background-color:#e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.文2 h2{font-size: 40px;
+    margin-bottom: 30px;
+}
+.文2 p{
+  text-align: center;
+  line-height: 2em; 
+}
+
+  .光之密語{
+    display: flex;
+}
+  .光之密語 img{
+    width: 50%;
+}
+  .文3{
+     width: 50%;
+    background-color:#e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  .文3 h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+  .文3 p{
+    text-align: center;
+    line-height: 2em;
+}
+footer{
+    background-color: #111111;
+    color: #8b8985;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.8em;
+}

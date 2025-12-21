@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #f6f3eb;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+h1{
+    color:#CBAE7A;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    text-indent: -9999px;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header a{
+    color: #CBAE7A;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.product{
+    display: flex;
+    background-color: #f6f3eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 180px 100px;
+}
+.product div{
+    width: 500px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    border-radius: 20px;
+}
+.product h2{
+    font-size: 20px;
+    margin: 20px 0;
+} 
+.product2{
+     display: flex;
+    background-color: #f6f3eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 180px 100px;
+}
+.product2 div{
+    width: 500px;
+    text-align: center;
+}
+.product2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.product2 h2{
+    font-size: 20px;
+    margin: 20px 0;
+} 
+footer{
+    background-color: #111111;
+    color: #8b8985;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.8em;
+}
